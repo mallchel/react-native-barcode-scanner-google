@@ -19,7 +19,7 @@ To include the latest version (1.3.0) `react-native-barcode-scanner-google` in y
 1.
 
 ```
-npm install git+https://github.com/ekreutz/react-native-barcode-scanner-google.git#v1.3.0 --save
+npm install git+https://github.com/mallchel/react-native-barcode-scanner-google --save
 ```
 
 2.
@@ -105,9 +105,6 @@ export default class BarcodeApp extends Component {
                     }}
                     focusMode={FocusMode.AUTO /* could also be TAP or FIXED */}
                     torchMode={TorchMode.ON /* could be the default OFF */}
-                    cameraFillMode={
-                        CameraFillMode.COVER /* could also be FIT */
-                    }
                     barcodeType={
                         BarcodeType.CODE_128 |
                         BarcodeType.EAN_13 |
