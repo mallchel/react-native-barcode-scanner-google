@@ -71,7 +71,6 @@ import BarcodeScanner, {
     Exception,
     FocusMode,
     TorchMode,
-    CameraFillMode,
     BarcodeType,
     pauseScanner,
     resumeScanner
@@ -165,17 +164,6 @@ Possible values for this prop are:
 
 * `TorchMode.OFF`: Disables flashlight. (default)
 * `TorchMode.ON`: Enables flashlight.
-
----
-
-#### `cameraFillMode`
-
-Use `import { CameraFillMode } from 'react-native-barcode-scanner-google';` to import the `CameraFillMode` object.
-
-Possible values for this prop are:
-
-* `CameraFillMode.COVER`: Make the camera stream fill the entire view, possibly cropping out a little bit on some side. (default)
-* `CameraFillMode.FIT`: Make the camera stream fit snugly inside the view, possibly showing wide bars on some side.
 
 ---
 
